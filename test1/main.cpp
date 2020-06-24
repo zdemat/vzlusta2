@@ -79,6 +79,12 @@ int main (int argc, char const* argv[])
     
     singleMeasurementTest(0, frameTime, filePath);
 
+    pxcGetThreshold(0,0,&threshold);
+    printf("threshold = %.3f\n", threshold);
+    double bias;
+    pxcGetBias(0, &bias);
+    printf("bias = %3f\n", bias);
+
     // Exit Pixet
     return pxcExit();
 }
