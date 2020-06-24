@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+export PIXET_SDK_HOME=/home/zdenek/prac/Pixet/PIXet_SDK_172_b857_Linux
+
+export CPATH=$PIXET_SDK_HOME:$CPATH
+export LD_LIBRARY_PATH=$PIXET_SDK_HOME:$LD_LIBRARY_PATH
+export LIBRARY_PATH=$PIXET_SDK_HOME:$LIBRARY_PATH
+
